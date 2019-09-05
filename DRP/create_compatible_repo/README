@@ -1,0 +1,9 @@
+Somewehre between DMstack w_2018_39 and w_2019_19, there was a modifcation
+to the repo structure, specifically for coadds.  This prevents Run1.2 data from
+being handled correctly by later versions of the DMstack resulting in an error.
+This can be fixed by rearranging the Run1.2 data using symlinks to provide the
+directory structure current versions of the DMstack expect.
+
+This directory contains scripts to do just that.
+
+
