@@ -4,6 +4,8 @@ being handled correctly by later versions of the DMstack resulting in an error.
 This can be fixed by rearranging the Run1.2 data using symlinks to provide the
 directory structure current versions of the DMstack expect.
 
-This directory contains scripts to do just that.
+This directory contains script to do just that.
+updaterun1-2.sh should be the script that works
+
 
 

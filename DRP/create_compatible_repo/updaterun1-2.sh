@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ALLDIR=/global/cscratch1/sd/desc/DC2/data/Run1.2p/w_2018_39/rerun/coadd-v4/deepCoadd_results
-NEWDIR=/global/cscratch1/sd/desc/DC2/data/Run1.2p/w_2018_39/rerun/coadd-v4/deepCoadd-results
+ALLDIR=/global/cscratch1/sd/desc/DC2/data/Run1.2i_globus_20181217_copy/w_2018_39/rerun/coadd-v1/deepCoadd_results
+NEWDIR=/global/cscratch1/sd/desc/DC2/data/Run1.2i_globus_20181217_copy/w_2018_39/rerun/coadd-v1/deepCoadd-results
 
 for CURDIR in $ALLDIR/*;
 do
@@ -19,7 +19,7 @@ do
     OUT=$(echo ls  "$CURDIR/*")
     echo $OUT
     ln -s $CURDIR/* $FULLNEWDIR
-    mv $FULLNEWDIR/forced-$BAND-$TRACT-$PATCH.fits $FULLNEWDIR/forced_src-$BAND-$TRACT-$PATCH.fits
+    cp $FULLNEWDIR/forced-$BAND-$TRACT-$PATCH.fits $FULLNEWDIR/forced_src-$BAND-$TRACT-$PATCH.fits
 done
 
 
