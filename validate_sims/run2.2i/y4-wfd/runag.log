@@ -1,0 +1,365 @@
+At file: 100
+At file: 200
+At file: 300
+At file: 400
+At file: 500
+At file: 600
+At file: 700
+At file: 800
+At file: 900
+At file: 1000
+At file: 1100
+At file: 1200
+At file: 1300
+At file: 1400
+At file: 1500
+At file: 1600
+At file: 1700
+At file: 1800
+At file: 1900
+At file: 2000
+At file: 2100
+At file: 2200
+At file: 2300
+At file: 2400
+At file: 2500
+At file: 2600
+At file: 2700
+At file: 2800
+At file: 2900
+At file: 3000
+At file: 3100
+At file: 3200
+At file: 3300
+At file: 3400
+At file: 3500
+At file: 3600
+At file: 3700
+At file: 3800
+At file: 3900
+At file: 4000
+At file: 4100
+At file: 4200
+At file: 4300
+At file: 4400
+At file: 4500
+At file: 4600
+At file: 4700
+At file: 4800
+At file: 4900
+At file: 5000
+At file: 5100
+At file: 5200
+At file: 5300
+At file: 5400
+At file: 5500
+At file: 5600
+At file: 5700
+At file: 5800
+At file: 5900
+At file: 6000
+At file: 6100
+At file: 6200
+At file: 6300
+At file: 6400
+At file: 6500
+At file: 6600
+At file: 6700
+At file: 6800
+At file: 6900
+At file: 7000
+At file: 7100
+At file: 7200
+At file: 7300
+At file: 7400
+At file: 7500
+At file: 7600
+At file: 7700
+At file: 7800
+At file: 7900
+	Command being timed: "python check_files.py --indir /global/cscratch1/sd/heatherk/nersc_scripts/validate_sims/run2.2i/y4-wfd/xci"
+	User time (seconds): 117.33
+	System time (seconds): 62.68
+	Percent of CPU this job got: 40%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:29.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12768
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10118624
+	Voluntary context switches: 172916
+	Involuntary context switches: 5925
+	Swaps: 0
+	File system inputs: 280
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+At file: 100
+At file: 200
+At file: 300
+At file: 400
+At file: 500
+At file: 600
+At file: 700
+At file: 800
+At file: 900
+At file: 1000
+At file: 1100
+At file: 1200
+At file: 1300
+At file: 1400
+At file: 1500
+At file: 1600
+At file: 1700
+At file: 1800
+At file: 1900
+At file: 2000
+At file: 2100
+At file: 2200
+At file: 2300
+At file: 2400
+At file: 2500
+At file: 2600
+At file: 2700
+At file: 2800
+At file: 2900
+At file: 3000
+At file: 3100
+At file: 3200
+At file: 3300
+At file: 3400
+At file: 3500
+At file: 3600
+At file: 3700
+At file: 3800
+At file: 3900
+At file: 4000
+At file: 4100
+At file: 4200
+At file: 4300
+At file: 4400
+At file: 4500
+At file: 4600
+At file: 4700
+At file: 4800
+At file: 4900
+At file: 5000
+At file: 5100
+At file: 5200
+At file: 5300
+At file: 5400
+At file: 5500
+At file: 5600
+At file: 5700
+At file: 5800
+At file: 5900
+At file: 6000
+At file: 6100
+At file: 6200
+At file: 6300
+At file: 6400
+At file: 6500
+At file: 6600
+At file: 6700
+At file: 6800
+At file: 6900
+At file: 7000
+At file: 7100
+At file: 7200
+At file: 7300
+At file: 7400
+At file: 7500
+At file: 7600
+	Command being timed: "python check_files.py --indir /global/cscratch1/sd/heatherk/nersc_scripts/validate_sims/run2.2i/y4-wfd/xcj"
+	User time (seconds): 116.47
+	System time (seconds): 63.48
+	Percent of CPU this job got: 39%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:39.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9764063
+	Voluntary context switches: 166533
+	Involuntary context switches: 5563
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+At file: 100
+At file: 200
+At file: 300
+At file: 400
+At file: 500
+At file: 600
+At file: 700
+At file: 800
+At file: 900
+At file: 1000
+At file: 1100
+At file: 1200
+At file: 1300
+At file: 1400
+At file: 1500
+At file: 1600
+At file: 1700
+At file: 1800
+At file: 1900
+At file: 2000
+At file: 2100
+At file: 2200
+At file: 2300
+At file: 2400
+At file: 2500
+At file: 2600
+At file: 2700
+At file: 2800
+At file: 2900
+At file: 3000
+At file: 3100
+At file: 3200
+At file: 3300
+At file: 3400
+At file: 3500
+At file: 3600
+At file: 3700
+At file: 3800
+At file: 3900
+At file: 4000
+At file: 4100
+At file: 4200
+At file: 4300
+At file: 4400
+At file: 4500
+At file: 4600
+At file: 4700
+At file: 4800
+At file: 4900
+At file: 5000
+At file: 5100
+At file: 5200
+At file: 5300
+At file: 5400
+At file: 5500
+At file: 5600
+At file: 5700
+At file: 5800
+At file: 5900
+At file: 6000
+At file: 6100
+At file: 6200
+At file: 6300
+At file: 6400
+At file: 6500
+	Command being timed: "python check_files.py --indir /global/cscratch1/sd/heatherk/nersc_scripts/validate_sims/run2.2i/y4-wfd/xck"
+	User time (seconds): 97.68
+	System time (seconds): 54.58
+	Percent of CPU this job got: 36%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:53.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8388505
+	Voluntary context switches: 146502
+	Involuntary context switches: 3817
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+At file: 100
+At file: 200
+At file: 300
+At file: 400
+At file: 500
+At file: 600
+At file: 700
+At file: 800
+At file: 900
+At file: 1000
+At file: 1100
+At file: 1200
+At file: 1300
+At file: 1400
+At file: 1500
+At file: 1600
+At file: 1700
+At file: 1800
+At file: 1900
+At file: 2000
+At file: 2100
+At file: 2200
+At file: 2300
+At file: 2400
+At file: 2500
+At file: 2600
+At file: 2700
+At file: 2800
+At file: 2900
+At file: 3000
+At file: 3100
+At file: 3200
+At file: 3300
+At file: 3400
+At file: 3500
+At file: 3600
+At file: 3700
+At file: 3800
+At file: 3900
+At file: 4000
+At file: 4100
+At file: 4200
+At file: 4300
+At file: 4400
+At file: 4500
+At file: 4600
+At file: 4700
+At file: 4800
+At file: 4900
+At file: 5000
+At file: 5100
+At file: 5200
+At file: 5300
+	Command being timed: "python check_files.py --indir /global/cscratch1/sd/heatherk/nersc_scripts/validate_sims/run2.2i/y4-wfd/xcl"
+	User time (seconds): 79.81
+	System time (seconds): 41.38
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:01.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12060
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6865516
+	Voluntary context switches: 119224
+	Involuntary context switches: 3664
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

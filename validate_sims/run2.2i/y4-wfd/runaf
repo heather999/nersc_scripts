@@ -1,0 +1,12 @@
+#!/bin/sh
+
+/usr/bin/time --verbose python check_files.py --indir $PWD/xby
+/usr/bin/time --verbose python check_files.py --indir $PWD/xbz
+/usr/bin/time --verbose python check_files.py --indir $PWD/xca
+/usr/bin/time --verbose python check_files.py --indir $PWD/xcb
+/usr/bin/time --verbose python check_files.py --indir $PWD/xcc
+/usr/bin/time --verbose python check_files.py --indir $PWD/xcd
+/usr/bin/time --verbose python check_files.py --indir $PWD/xce
+/usr/bin/time --verbose python check_files.py --indir $PWD/xcf
+/usr/bin/time --verbose python check_files.py --indir $PWD/xcg
+/usr/bin/time --verbose python check_files.py --indir $PWD/xch
