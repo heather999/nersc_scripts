@@ -1,0 +1,145 @@
+5062
+CameraMapper INFO: Loading exposure registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cscratch1/sd/descdm/DC2/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+Processing tract 5062, patch 0,0
+Processing tract 5062, patch 1,0
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,0'}, tag=set())
+  No entries for tract 5062, patch 1,0
+Processing tract 5062, patch 2,0
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,0'}, tag=set())
+  No entries for tract 5062, patch 2,0
+Processing tract 5062, patch 3,0
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,0'}, tag=set())
+  No entries for tract 5062, patch 3,0
+Processing tract 5062, patch 4,0
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,0'}, tag=set())
+  No entries for tract 5062, patch 4,0
+Processing tract 5062, patch 5,0
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,0'}, tag=set())
+  No entries for tract 5062, patch 5,0
+Processing tract 5062, patch 6,0
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,0'}, tag=set())
+  No entries for tract 5062, patch 6,0
+Processing tract 5062, patch 0,1
+Processing tract 5062, patch 1,1
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,1'}, tag=set())
+  No entries for tract 5062, patch 1,1
+Processing tract 5062, patch 2,1
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,1'}, tag=set())
+  No entries for tract 5062, patch 2,1
+Processing tract 5062, patch 3,1
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,1'}, tag=set())
+  No entries for tract 5062, patch 3,1
+Processing tract 5062, patch 4,1
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,1'}, tag=set())
+  No entries for tract 5062, patch 4,1
+Processing tract 5062, patch 5,1
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,1'}, tag=set())
+  No entries for tract 5062, patch 5,1
+Processing tract 5062, patch 6,1
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,1'}, tag=set())
+  No entries for tract 5062, patch 6,1
+Processing tract 5062, patch 0,2
+Processing tract 5062, patch 1,2
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,2'}, tag=set())
+  No entries for tract 5062, patch 1,2
+Processing tract 5062, patch 2,2
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,2'}, tag=set())
+  No entries for tract 5062, patch 2,2
+Processing tract 5062, patch 3,2
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,2'}, tag=set())
+  No entries for tract 5062, patch 3,2
+Processing tract 5062, patch 4,2
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,2'}, tag=set())
+  No entries for tract 5062, patch 4,2
+Processing tract 5062, patch 5,2
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,2'}, tag=set())
+  No entries for tract 5062, patch 5,2
+Processing tract 5062, patch 6,2
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,2'}, tag=set())
+  No entries for tract 5062, patch 6,2
+Processing tract 5062, patch 0,3
+Processing tract 5062, patch 1,3
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,3'}, tag=set())
+  No entries for tract 5062, patch 1,3
+Processing tract 5062, patch 2,3
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,3'}, tag=set())
+  No entries for tract 5062, patch 2,3
+Processing tract 5062, patch 3,3
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,3'}, tag=set())
+  No entries for tract 5062, patch 3,3
+Processing tract 5062, patch 4,3
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,3'}, tag=set())
+  No entries for tract 5062, patch 4,3
+Processing tract 5062, patch 5,3
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,3'}, tag=set())
+  No entries for tract 5062, patch 5,3
+Processing tract 5062, patch 6,3
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,3'}, tag=set())
+  No entries for tract 5062, patch 6,3
+Processing tract 5062, patch 0,4
+Processing tract 5062, patch 1,4
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,4'}, tag=set())
+  No entries for tract 5062, patch 1,4
+Processing tract 5062, patch 2,4
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,4'}, tag=set())
+  No entries for tract 5062, patch 2,4
+Processing tract 5062, patch 3,4
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,4'}, tag=set())
+  No entries for tract 5062, patch 3,4
+Processing tract 5062, patch 4,4
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,4'}, tag=set())
+  No entries for tract 5062, patch 4,4
+Processing tract 5062, patch 5,4
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,4'}, tag=set())
+  No entries for tract 5062, patch 5,4
+Processing tract 5062, patch 6,4
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,4'}, tag=set())
+  No entries for tract 5062, patch 6,4
+Processing tract 5062, patch 0,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '0,5'}, tag=set())
+  No entries for tract 5062, patch 0,5
+Processing tract 5062, patch 1,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,5'}, tag=set())
+  No entries for tract 5062, patch 1,5
+Processing tract 5062, patch 2,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,5'}, tag=set())
+  No entries for tract 5062, patch 2,5
+Processing tract 5062, patch 3,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,5'}, tag=set())
+  No entries for tract 5062, patch 3,5
+Processing tract 5062, patch 4,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,5'}, tag=set())
+  No entries for tract 5062, patch 4,5
+Processing tract 5062, patch 5,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,5'}, tag=set())
+  No entries for tract 5062, patch 5,5
+Processing tract 5062, patch 6,5
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,5'}, tag=set())
+  No entries for tract 5062, patch 6,5
+Processing tract 5062, patch 0,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '0,6'}, tag=set())
+  No entries for tract 5062, patch 0,6
+Processing tract 5062, patch 1,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '1,6'}, tag=set())
+  No entries for tract 5062, patch 1,6
+Processing tract 5062, patch 2,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '2,6'}, tag=set())
+  No entries for tract 5062, patch 2,6
+Processing tract 5062, patch 3,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '3,6'}, tag=set())
+  No entries for tract 5062, patch 3,6
+Processing tract 5062, patch 4,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '4,6'}, tag=set())
+  No entries for tract 5062, patch 4,6
+Processing tract 5062, patch 5,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '5,6'}, tag=set())
+  No entries for tract 5062, patch 5,6
+Processing tract 5062, patch 6,6
+   No locations for get: datasetType:deepCoadd_ref dataId:DataId(initialdata={'tract': 5062, 'patch': '6,6'}, tag=set())
+  No entries for tract 5062, patch 6,6

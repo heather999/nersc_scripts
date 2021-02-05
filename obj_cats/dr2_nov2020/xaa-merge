@@ -1,0 +1,11 @@
+#!/bin/bash
+array=( 2725 2728 2729 2730 2733 2734 2908 3443 3450 3829)
+#./merge.sh "${array[@]}"
+
+shifter --image=lsstdesc/desc-drp-stack:v19-dc2-run2.2-v5 /bin/bash -s <<HEREDOC
+source /opt/lsst/software/stack/loadLSST.bash
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_3443_*.parquet -o $PWD/object_tract_3443.parquet --assume-consistent-schema |& tee merge-3443.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_3450_*.parquet -o $PWD/object_tract_3450.parquet --assume-consistent-schema |& tee merge-3450.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_3829_*.parquet -o $PWD/object_tract_3829.parquet --assume-consistent-schema |& tee merge-3829.log
+HEREDOC
+

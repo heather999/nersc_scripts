@@ -1,0 +1,23 @@
+CameraMapper INFO: Loading exposure registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cscratch1/sd/descdm/DC2/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /global/cfs/cdirs/lsst/production/DC2_ImSim/Run3.1i/desc_dm_drp/nersc/v19.0.0-v1/Run3.1i/DR3/repo/CALIB/calibRegistry.sqlite3
+Processing tract 5063, patch 1,3
+Traceback (most recent call last):
+  File "/opt/lsst/software/stack/DC2-production-0.4.0/scripts/make_object_catalog.py", line 238, in <module>
+    filters=filters
+  File "/opt/lsst/software/stack/DC2-production-0.4.0/scripts/make_object_catalog.py", line 82, in generate_object_catalog
+    merged_cat = merge_coadd_forced_src(butler, tract, patch, verbose=verbose, **kwargs)
+  File "/opt/lsst/software/stack/DC2-production-0.4.0/scripts/make_object_catalog.py", line 155, in merge_coadd_forced_src
+    cat = cat[isPrimary]
+  File "/opt/lsst/software/stack/python/miniconda3-4.7.10/envs/lsst-scipipe-4d7b902/lib/python3.7/site-packages/astropy/table/table.py", line 1373, in __getitem__
+    return self._new_from_slice(item)
+  File "/opt/lsst/software/stack/python/miniconda3-4.7.10/envs/lsst-scipipe-4d7b902/lib/python3.7/site-packages/astropy/table/table.py", line 922, in _new_from_slice
+    newcol = col[slice_]
+  File "astropy/table/_column_mixins.pyx", line 74, in astropy.table._column_mixins._ColumnGetitemShim.__getitem__
+  File "astropy/table/_column_mixins.pyx", line 57, in astropy.table._column_mixins.base_getitem
+  File "astropy/table/_column_mixins.pyx", line 69, in astropy.table._column_mixins.column_getitem
+IndexError: boolean index did not match indexed array along dimension 0; dimension is 6392 but corresponding boolean dimension is 23778

@@ -1,0 +1,15 @@
+#!/bin/bash
+array=( 4028 4032 4227 4229 4432 4434 )
+
+#./merge.sh "${array[@]}"
+
+shifter --image=lsstdesc/desc-drp-stack:v19-dc2-run2.2-v5 /bin/bash -s <<HEREDOC
+source /opt/lsst/software/stack/loadLSST.bash
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4028_*.parquet -o $PWD/object_tract_4028.parquet --assume-consistent-schema |& tee merge-4028.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4032_*.parquet -o $PWD/object_tract_4032.parquet --assume-consistent-schema |& tee merge-4032.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4227_*.parquet -o $PWD/object_tract_4227.parquet --assume-consistent-schema |& tee merge-4227.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4229_*.parquet -o $PWD/object_tract_4229.parquet --assume-consistent-schema |& tee merge-4229.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4432_*.parquet -o $PWD/object_tract_4432.parquet --assume-consistent-schema |& tee merge-4432.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4434_*.parquet -o $PWD/object_tract_4434.parquet --assume-consistent-schema |& tee merge-4434.log
+HEREDOC
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+array=( 4640 4641 4644 4645 4646 4849 4850 4853 4854 5062 )
+
+#./merge.sh "${array[@]}"
+
+shifter --image=lsstdesc/desc-drp-stack:v19-dc2-run2.2-v5 /bin/bash -s <<HEREDOC
+source /opt/lsst/software/stack/loadLSST.bash
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4640_*.parquet -o $PWD/object_tract_4640.parquet --assume-consistent-schema |& tee merge-4640.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4641_*.parquet -o $PWD/object_tract_4641.parquet --assume-consistent-schema |& tee merge-4641.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4644_*.parquet -o $PWD/object_tract_4644.parquet --assume-consistent-schema |& tee merge-4644.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4645_*.parquet -o $PWD/object_tract_4645.parquet --assume-consistent-schema |& tee merge-4645.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4646_*.parquet -o $PWD/object_tract_4646.parquet --assume-consistent-schema |& tee merge-4646.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4849_*.parquet -o $PWD/object_tract_4849.parquet --assume-consistent-schema |& tee merge-4849.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4850_*.parquet -o $PWD/object_tract_4850.parquet --assume-consistent-schema |& tee merge-4850.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4853_*.parquet -o $PWD/object_tract_4853.parquet --assume-consistent-schema |& tee merge-4853.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_4854_*.parquet -o $PWD/object_tract_4854.parquet --assume-consistent-schema |& tee merge-4854.log
+python /opt/lsst/software/stack/DC2-production-0.4.0/scripts/merge_parquet_files.py $PWD/object_5062_*.parquet -o $PWD/object_tract_5062.parquet --assume-consistent-schema |& tee merge-5062.log
+HEREDOC
+
